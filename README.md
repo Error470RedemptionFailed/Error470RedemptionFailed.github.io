@@ -1,1 +1,1 @@
-# Error470RedemptiomFailed.github.io
+# Error470RedemptionFailed.github.io
