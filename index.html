@@ -3,41 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Cybersecurity</title>
-    <style type:"css">
-body {
-  background-image: url('Background.png');
-  background-position:center;
-  background-attachment:fixed;
-  background-size:300px 300px;
-  color:white;
-  font-family:times new roman;
-    font-size:70px
-}
-section p:hover{
-    border-radius:75px;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-bottom: 60px;
-    padding-left: 50px;
-    background: black;
-    border: 1px solid blue;
-    }
-.animate-fade{
-    opacity:1;
-    transition:2s;
-    }
-.animate-fade.fade-out{
-    opacity:0
-}
-
-</style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+  <body id="change">
+    <a href="index.html">Home</a>
+  
+    <button id="change-background"><span class="eye"></span></button>
     <section>
         <h1>Cybersecurity</h1>
         <p class="animate-fade">Cybersecurity is the practice of protecting systems, networks, data and programs from cyber/digital attacks. The safety of students online important in this day of age since technology has become very reliable in different aspects like communication, data storage, automation, and information retrieval. Advances in technology have greatly enhanced efficiency and accuracy in tasks, leading to increased reliability in areas such as healthcare, transportation, and daily life. </p>
     </section>
     <a href="Cyber_threats.html">Cyber threats</a>
+    <script src="script.js"></script>
     
 </body>
 </html>

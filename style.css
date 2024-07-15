@@ -1,0 +1,78 @@
+
+body {
+  background-image: url('Backgroundlight.png');
+  background-size:300px 300px;
+  background-position:center;
+  color:#000;
+  font-family:Times new roman
+}
+body.dark-mode{
+  background-image: url('Backgrounddark.png');
+  color: #fff;
+}
+p:hover {
+  background-color: #fff;
+  transition: background-color 3s;
+  border-radius:75px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  border: 1px solid blue;
+}
+body.dark-mode p:hover {
+  background-color: #000; 
+  transition: background-color 3s;
+  border-radius:75px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  border: 1px solid blue;
+}
+.animate-fade{
+    opacity:1;
+    transition:3s;
+    }
+.animate-fade.fade-out{
+    opacity:0
+}
+body {
+  transition: background-image 3s, color 3s;
+}
+
+body.dark-mode {
+  transition: background-image 3s, color 3s;
+}
+.eye {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #000;
+  position: relative;
+}
+
+.eye::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
